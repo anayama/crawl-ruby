@@ -83,7 +83,7 @@ EOS
 
 ses.send_email(
     :subject => "株価情報#{company.day}",
-    :from => 'shinya.anayama@primal-sys.co.jp',
+    :from => 'shinya.anayama@gmail.com',
     :to => 'shinya.anayama@gmail.com',
     :body_text => mail_body
 )
